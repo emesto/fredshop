@@ -4,5 +4,5 @@ Route::get('/', 'HomeController@index');
 
 Route::get('contact', function()
 {
-  echo "ummm";
+  return View::make('pages.contact');
 });

@@ -5,8 +5,10 @@
       @include('scripts.meta')
       @include('scripts.scripts')
 
+      @yield('extra-scripts')
+
     </head>
-    <body class="no-padding">
+    <body{{ (Request::is('/') ? ' class="no-padding"' : '') }}>
 
       @include('layouts.navbar')
 
