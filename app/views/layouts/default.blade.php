@@ -2,30 +2,27 @@
 <html lang="en">
     <head>
 
-      @yield('meta')
-
-      @yield('scripts')
+      @include('scripts.meta')
+      @include('scripts.scripts')
 
     </head>
     <body class="no-padding">
 
-      @yield('navbar')
+      @include('layouts.navbar')
 
       @yield('intro-image')
 
       <div id="all"> 
 
-          @yield('advantages')
-
           @yield('content')
 
-          @yield('footer')
+          @include('layouts.footer')
 
-          @yield('copyright')
+          @include('layouts.copyright')
       
       </div>
 
-      @yield('javascript-files')
+      @include('scripts.jsfiles')
 
     </body>
 </html>
