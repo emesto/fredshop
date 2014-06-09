@@ -22,7 +22,7 @@
     <div class="navbar-collapse collapse"  id="navigation">
 
       <ul class="nav navbar-nav navbar-left">
-        <li class="active"><a href="index.html">Home</a></li>
+        <li{{ (Request::is('/') ? ' class="active"' : '') }}>{{ link_to('/', 'Home') }}</li>
         <li class="dropdown yamm-fw">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men<b class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -145,7 +145,7 @@
 
           </ul>
         </li>
-        <li><a href="contact.html">Contact</a></li>
+        <li{{ (Request::is('contact') ? ' class="active"' : '') }}>{{ link_to('contact', 'Contact') }}</li>
       </ul>
 
     </div><!--/.nav-collapse -->
