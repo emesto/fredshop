@@ -8,7 +8,8 @@ Route::get('detail', 'DetailController@index');
 
 Route::get('blog', array('as' => 'blog.home', function()
 {
-  return View::make('pages.blog.home');
+  $categories = BlogCategory::all();
+  return View::make('pages.blog.home')->with('categories', $categories);;
 }));
 
 Route::get('blog/post', array('as' => 'blog.post', 'uses' => 'PostController@index'));

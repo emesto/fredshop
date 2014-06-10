@@ -78,18 +78,13 @@
       <h3>Categories</h3>
 
       <ul class="nav nav-pills nav-stacked">
-        <li>
-          <a href="blog.html">About us</a>
-        </li>
-        <li>
-          <a href="blog.html">Fashion</a>
-        </li> 
-        <li>
-          <a href="blog.html">News and gossip</a>
-        </li> 
-        <li>
-          <a href="blog.html">Design</a>
-        </li> 
+        @if ($categories->count())
+          @foreach ($categories as $category)
+            <li>{{ link_to("category/{$category->id}", $category->name) }}</li>
+          @endforeach
+        @else
+          There are no categories.
+        @endif
       </ul>
     </div>
 
