@@ -75,7 +75,7 @@
 
   <div class="col-sm-3">
     <div id="categoryMenu">
-      <h3>Blog</h3>
+      <h3>Categories</h3>
 
       <ul class="nav nav-pills nav-stacked">
         <li>

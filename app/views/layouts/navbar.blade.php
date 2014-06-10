@@ -125,26 +125,7 @@
             </li>
           </ul>
         </li>     
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages included <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="index2.html">Homepage with slider</a></li>
-            <li><a href="category">Category page</a></li>
-            <li><a href="detail.html">Product detail</a></li>
-            <li class="divider"></li>
-            <li><a href="basket.html">Shopping cart</a></li>
-            <li><a href="checkout1.html">Checkout (4 pages)</a></li>
-            <li class="divider"></li>
-            <li><a href="text.html">Text page</a></li>
-            <li><a href="contact.html">Contact page</a></li>
-            <li><a href="404.html">404 page</a></li>
-            <li class="divider"></li>
-            <li>{{ link_to_route('blog.home', 'Blog listing') }}</li>
-            <li><a href="post.html">Blog post</a></li>
-
-          </ul>
-        </li>
+        <li{{ (Request::is('blog') ? ' class="active"' : '') }}>{{ link_to_route('blog.home', 'Blog') }}</li>
         <li{{ (Request::is('contact') ? ' class="active"' : '') }}>{{ link_to_route('contact', 'Contact') }}</li>
       </ul>
 

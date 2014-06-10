@@ -6,12 +6,12 @@ Route::get('category', 'CategoryController@index');
 
 Route::get('detail', 'DetailController@index');
 
-Route::get('blog/post', 'PostController@index');
-
 Route::get('blog', array('as' => 'blog.home', function()
 {
   return View::make('pages.blog.home');
 }));
+
+Route::get('blog/post', array('as' => 'blog.post', 'uses' => 'PostController@index'));
 
 Route::get('contact', array('as' => 'contact', function()
 {
