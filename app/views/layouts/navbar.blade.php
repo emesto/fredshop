@@ -36,28 +36,28 @@
                   <div class="col-sm-3">
                     <h3>Clothing</h3>
                     <ul>
-                      <li><a href="category.html">T-shirts</a></li>
-                      <li><a href="category.html">Shirts</a></li>
-                      <li><a href="category.html">Pants</a></li>
-                      <li><a href="category.html">Accessories</a></li>
+                      <li><a href="category">T-shirts</a></li>
+                      <li><a href="category">Shirts</a></li>
+                      <li><a href="category">Pants</a></li>
+                      <li><a href="category">Accessories</a></li>
                     </ul>
                   </div>
                   <div class="col-sm-3">
                     <h3>Clothing</h3>
                     <ul>
-                      <li><a href="category.html">T-shirts</a></li>
-                      <li><a href="category.html">Shirts</a></li>
-                      <li><a href="category.html">Pants</a></li>
-                      <li><a href="category.html">Accessories</a></li>
+                      <li><a href="category">T-shirts</a></li>
+                      <li><a href="category">Shirts</a></li>
+                      <li><a href="category">Pants</a></li>
+                      <li><a href="category">Accessories</a></li>
                     </ul>
                   </div>
                   <div class="col-sm-3">
                     <h3>Shoes</h3>
                     <ul>
-                      <li><a href="category.html">Trainers</a></li>
-                      <li><a href="category.html">Sandals</a></li>
-                      <li><a href="category.html">Hiking shoes</a></li>
-                      <li><a href="category.html">Casual</a></li>
+                      <li><a href="category">Trainers</a></li>
+                      <li><a href="category">Sandals</a></li>
+                      <li><a href="category">Hiking shoes</a></li>
+                      <li><a href="category">Casual</a></li>
                     </ul>
                   </div>
                 </div>
@@ -87,28 +87,28 @@
                   <div class="col-sm-3">
                     <h3>Clothing</h3>
                     <ul>
-                      <li><a href="category.html">T-shirts</a></li>
-                      <li><a href="category.html">Shirts</a></li>
-                      <li><a href="category.html">Pants</a></li>
-                      <li><a href="category.html">Accessories</a></li>
+                      <li><a href="category">T-shirts</a></li>
+                      <li><a href="category">Shirts</a></li>
+                      <li><a href="category">Pants</a></li>
+                      <li><a href="category">Accessories</a></li>
                     </ul>
                   </div>
                   <div class="col-sm-3">
                     <h3>Clothing</h3>
                     <ul>
-                      <li><a href="category.html">T-shirts</a></li>
-                      <li><a href="category.html">Shirts</a></li>
-                      <li><a href="category.html">Pants</a></li>
-                      <li><a href="category.html">Accessories</a></li>
+                      <li><a href="category">T-shirts</a></li>
+                      <li><a href="category">Shirts</a></li>
+                      <li><a href="category">Pants</a></li>
+                      <li><a href="category">Accessories</a></li>
                     </ul>
                   </div>
                   <div class="col-sm-3">
                     <h3>Shoes</h3>
                     <ul>
-                      <li><a href="category.html">Trainers</a></li>
-                      <li><a href="category.html">Sandals</a></li>
-                      <li><a href="category.html">Hiking shoes</a></li>
-                      <li><a href="category.html">Casual</a></li>
+                      <li><a href="category">Trainers</a></li>
+                      <li><a href="category">Sandals</a></li>
+                      <li><a href="category">Hiking shoes</a></li>
+                      <li><a href="category">Casual</a></li>
                     </ul>
                   </div>
                 </div>
@@ -130,7 +130,7 @@
           <ul class="dropdown-menu">
             <li><a href="index.html">Homepage</a></li>
             <li><a href="index2.html">Homepage with slider</a></li>
-            <li><a href="category.html">Category page</a></li>
+            <li><a href="category">Category page</a></li>
             <li><a href="detail.html">Product detail</a></li>
             <li class="divider"></li>
             <li><a href="basket.html">Shopping cart</a></li>

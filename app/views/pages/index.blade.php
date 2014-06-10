@@ -65,18 +65,18 @@
         <div class="col-md-3 col-sm-4">
           <div class="product">
             <div class="image">
-              <a href="detail.html">
+              <a href="detail">
                 <img src="img/product1.jpg" alt="" class="img-responsive image1" >
               </a>
             </div><!-- /.image -->
             <div class="text">
-              <h3><a href="detail.html">Fur coat with very but very very long name</a></h3>
+              <h3><a href="detail">Fur coat with very but very very long name</a></h3>
               <p class="price">$143.00</p>
 
             </div><!-- /.text -->
 
             <p class="buttons">
-              <a href="detail.html" class="btn btn-default">View detail</a>
+              <a href="detail" class="btn btn-default">View detail</a>
               <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
             </p>
           </div> <!-- /.product -->
@@ -85,17 +85,17 @@
         <div class="col-md-3 col-sm-4">
           <div class="product">
             <div class="image">
-              <a href="detail.html">
+              <a href="detail">
                 <img src="img/product2.jpg" alt="" class="img-responsive image1" >
               </a>
             </div><!-- /.image -->
             <div class="text">
-              <h3><a href="detail.html">White Blouse Armani</a></h3>
+              <h3><a href="detail">White Blouse Armani</a></h3>
               <p class="price"><del>$280</del> $143.00</p>
 
             </div><!-- /.text -->
             <p class="buttons">
-              <a href="detail.html" class="btn btn-default">View detail</a>
+              <a href="detail" class="btn btn-default">View detail</a>
               <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
             </p>
             <div class="ribbon sale">
@@ -118,19 +118,19 @@
         <div class="col-md-3 col-sm-4">
           <div class="product">
             <div class="image">
-              <a href="detail.html">
+              <a href="detail">
                 <img src="img/product3.jpg" alt="" class="img-responsive image1" >
               </a>
             </div><!-- /.image -->
             <div class="text">
-              <h3><a href="detail.html">Black Blouse Versace</a></h3>
+              <h3><a href="detail">Black Blouse Versace</a></h3>
               <p class="price">$143.00</p>
 
 
             </div><!-- /.text -->
 
             <p class="buttons">
-              <a href="detail.html" class="btn btn-default">View detail</a>
+              <a href="detail" class="btn btn-default">View detail</a>
               <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
             </p>
           </div> <!-- /.product -->
@@ -139,19 +139,19 @@
         <div class="col-md-3 col-sm-4">
           <div class="product">
             <div class="image">
-              <a href="detail.html">
+              <a href="detail">
                 <img src="img/product3.jpg" alt="" class="img-responsive image1" >
               </a>
             </div><!-- /.image -->
             <div class="text">
-              <h3><a href="detail.html">Black Blouse Versace</a></h3>
+              <h3><a href="detail">Black Blouse Versace</a></h3>
               <p class="price">$143.00</p>
 
 
             </div><!-- /.text -->
 
             <p class="buttons">
-              <a href="detail.html" class="btn btn-default">View detail</a>
+              <a href="detail" class="btn btn-default">View detail</a>
               <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
             </p>
           </div> <!-- /.product -->
@@ -160,18 +160,18 @@
         <div class="col-md-3 col-sm-4">
           <div class="product">
             <div class="image">
-              <a href="detail.html">
+              <a href="detail">
                 <img src="img/product2.jpg" alt="" class="img-responsive image1" >
               </a>
             </div><!-- /.image -->
             <div class="text">
-              <h3><a href="detail.html">White Blouse Versace</a></h3>
+              <h3><a href="detail">White Blouse Versace</a></h3>
               <p class="price">$143.00</p>
 
             </div><!-- /.text -->
 
             <p class="buttons">
-              <a href="detail.html" class="btn btn-default">View detail</a>
+              <a href="detail" class="btn btn-default">View detail</a>
               <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
             </p>
 
@@ -185,19 +185,19 @@
         <div class="col-md-3 col-sm-4">
           <div class="product">
             <div class="image">
-              <a href="detail.html">
+              <a href="detail">
                 <img src="img/product1.jpg" alt="" class="img-responsive image1" >
               </a>
             </div><!-- /.image -->
             <div class="text">
-              <h3><a href="detail.html">Fur coat</a></h3>
+              <h3><a href="detail">Fur coat</a></h3>
               <p class="price">$143.00</p>
 
 
             </div><!-- /.text -->
 
             <p class="buttons">
-              <a href="detail.html" class="btn btn-default">View detail</a>
+              <a href="detail" class="btn btn-default">View detail</a>
               <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
             </p>
 
@@ -212,18 +212,18 @@
         <div class="col-md-3 col-sm-4">
           <div class="product">
             <div class="image">
-              <a href="detail.html">
+              <a href="detail">
                 <img src="img/product2.jpg" alt="" class="img-responsive image1" >
               </a>
             </div><!-- /.image -->
             <div class="text">
-              <h3><a href="detail.html">White Blouse Versace</a></h3>
+              <h3><a href="detail">White Blouse Versace</a></h3>
               <p class="price">$143.00</p>
 
             </div><!-- /.text -->
 
             <p class="buttons">
-              <a href="detail.html" class="btn btn-default">View detail</a>
+              <a href="detail" class="btn btn-default">View detail</a>
               <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
             </p>
 
@@ -237,19 +237,19 @@
         <div class="col-md-3 col-sm-4">
           <div class="product">
             <div class="image">
-              <a href="detail.html">
+              <a href="detail">
                 <img src="img/product1.jpg" alt="" class="img-responsive image1" >
               </a>
             </div><!-- /.image -->
             <div class="text">
-              <h3><a href="detail.html">Fur coat</a></h3>
+              <h3><a href="detail">Fur coat</a></h3>
               <p class="price">$143.00</p>
 
 
             </div><!-- /.text -->
 
             <p class="buttons">
-              <a href="detail.html" class="btn btn-default">View detail</a>
+              <a href="detail" class="btn btn-default">View detail</a>
               <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
             </p>
 
