@@ -32,7 +32,7 @@
       @foreach ($posts as $post)
         <div class="post">
           <h2><a href="/blog/post">Fashion now</a></h2>
-          <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a></p>
+          <p class="author-category">By <a href="#">{{{ $post->user->username }}}</a> in <a href="">{{{ $post->category->name }}}</a></p>
           <hr>
           <p class="date-comments">
             <a href="/blog/post"><i class="fa fa-calendar-o"></i> June 20, 2013</a>
