@@ -31,7 +31,7 @@
     @if ($posts->count())
       @foreach ($posts as $post)
         <div class="post">
-          <h2><a href="/blog/post">Fashion now</a></h2>
+          <h2>{{ link_to('/blog/post/'.$post->id, $post->title) }}</h2>
           <p class="author-category">By <a href="#">{{{ $post->user->username }}}</a> in <a href="">{{{ $post->category->name }}}</a></p>
           <hr>
           <p class="date-comments">
