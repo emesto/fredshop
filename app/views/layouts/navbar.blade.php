@@ -13,7 +13,7 @@
           <span class="sr-only">Toggle search</span>
           <i class="fa fa-search"></i>
         </button>
-        <a class="btn btn-primary navbar-toggle" href="basket.html">
+        <a class="btn btn-primary navbar-toggle" href="basket">
           <i class="fa fa-shopping-cart"></i> <span class="hidden-xs">3 items in cart</span>
         </a>
       </div>
@@ -132,7 +132,7 @@
     </div><!--/.nav-collapse -->
 
     <div class="navbar-collapse collapse right"  id="basket-overview">
-      <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items <span class="hidden-md">in cart</span></span></a>
+      <a href="basket" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items <span class="hidden-md">in cart</span></span></a>
     </div><!--/.nav-collapse -->
 
     <div class="navbar-collapse collapse right"  id="search-not-mobile">
