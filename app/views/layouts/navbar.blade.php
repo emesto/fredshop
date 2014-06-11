@@ -3,7 +3,7 @@
   <div class="container">
     <div class="navbar-header">
 
-      <a class="navbar-brand home" href="index.html"><img src="img/logo.png" alt="Minimal logo" class="hidden-xs hidden-sm"><img src="img/logo-small.png" alt="Minimal logo" class="visible-xs visible-sm"><span class="sr-only">Minimal - go to homepage</span></a>
+      <a class="navbar-brand home" href="index.html"><img src="{{ URL::asset('img/logo.png') }}" alt="Minimal logo" class="hidden-xs hidden-sm"><img src="img/logo-small.png" alt="Minimal logo" class="visible-xs visible-sm"><span class="sr-only">Minimal - go to homepage</span></a>
       <div class="navbar-buttons">
         <button type="button" class="navbar-toggle btn-primary" data-toggle="collapse" data-target="#navigation">
           <span class="sr-only">Toggle navigation</span>

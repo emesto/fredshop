@@ -16,7 +16,7 @@
 
         <div class="row">
           <div class="col-sm-10 col-sm-offset-1">
-            <h1>Fashion now</h1>
+            <h1>{{{ $post->title }}}</h1>
             <p class="text-italic text-muted">By <a href="#">John Slim</a> |  June 20, 2013</p>
             <p class="lead">This is the lead paragraph of the article. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
           </div>

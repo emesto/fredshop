@@ -2,9 +2,10 @@
 
 class PostController extends BaseController {
 
-  public function index()
+  public function index($id)
   {
-    return View::make('pages.blog.post');
+    $post = BlogPost::find($id);
+    return View::make('pages.blog.post')->with('post', $post);
   }
 
 }

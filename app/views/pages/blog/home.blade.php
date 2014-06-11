@@ -46,39 +46,8 @@
         </div>
       @endforeach
     @else
-      There are no categories.
+      There are no posts.
     @endif
-
-    <div class="post">
-      <h2><a href="/blog/post">Fashion now</a></h2>
-      <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a></p>
-      <hr>
-      <p class="date-comments">
-        <a href="/blog/post"><i class="fa fa-calendar-o"></i> June 20, 2013</a>
-        <a href="/blog/post"><i class="fa fa-comment-o"></i> 8 Comments</a>
-      </p>
-      <div class="image">
-        <a href="/blog/post"><img src="img/blog2.jpg" class="img-responsive" alt="Example blog post alt"></a>
-      </div>
-      <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-      <p class="read-more"><a href="/blog/post" class="btn btn-primary">Continue reading</a></p>
-    </div>
-
-
-    <div class="post">
-      <h2><a href="/blog/post">Who is who - example blog post</a></h2>
-      <p class="author-category">By <a href="#">John Slim</a> in <a href="">About Minimal</a></p>
-      <hr>
-      <p class="date-comments">
-        <a href="/blog/post"><i class="fa fa-calendar-o"></i> June 20, 2013</a>
-        <a href="/blog/post"><i class="fa fa-comment-o"></i> 8 Comments</a>
-      </p>
-      <div class="image">
-        <a href="/blog/post"><img src="img/blog.jpg" class="img-responsive" alt="Example blog post alt"></a>
-      </div>
-      <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-      <p class="read-more"><a href="/blog/post" class="btn btn-primary">Continue reading</a></p>
-    </div>
 
     <ul class="pager">
       <li class="previous"><a href="#">&larr; Older</a></li>
