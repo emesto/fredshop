@@ -22,6 +22,7 @@ class CreateBlogPostsTable extends Migration {
       $table->unsignedInteger('category_id');
       $table->foreign('category_id')->references('id')->on('blog_categories');
 
+      $table->string('title');
       $table->longText('content');
 			$table->timestamps();
 		});
