@@ -14,8 +14,8 @@ class CreateBlogCommentsTable extends Migration {
       $table->unsignedInteger('user_id');
       $table->foreign('user_id')->references('id')->on('users');
 
-      $table->unsignedInteger('post_id');
-      $table->foreign('post_id')->references('id')->on('blog_posts');
+      $table->unsignedInteger('blog_post_id');
+      $table->foreign('blog_post_id')->references('id')->on('blog_posts');
 
       $table->longText('content');
 			$table->timestamps();

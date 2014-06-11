@@ -37,34 +37,24 @@
     <div id="comments">
       <h4>2 comments</h4>
 
+      @if ($post->comments->count())
+        @foreach ($post->comments as $comment)
+          <div class="row comment">
+            <div class="col-sm-3 col-md-2 text-center-xs">
+              <p><img src="{{ URL::asset('img/profilepics/'.$comment->user->id.'.jpg') }}" class="img-responsive img-circle" alt="{{ $comment->user->username }}"></p>
+            </div>
+            <div class="col-sm-9 col-md-10">
+              <h5>{{ $comment->user->username }}</h5>
+              <p class="posted"><i class="fa fa-clock-o"></i> September 23, 2011 at 12:00 am</p>
+              <p>{{{ $comment->content }}}</p>
+              <p class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></p>
+            </div>
+          </div> <!-- /.comment -->
+        @endforeach
+      @else
+        There are no comments.
+      @endif
 
-      <div class="row comment">
-        <div class="col-sm-3 col-md-2 text-center-xs">
-          <p><img src="img/blog-avatar2.jpg" class="img-responsive img-circle" alt=""></p>
-        </div>
-        <div class="col-sm-9 col-md-10">
-          <h5>Julie Alma</h5>
-          <p class="posted"><i class="fa fa-clock-o"></i> September 23, 2011 at 12:00 am</p>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-          <p class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></p>
-        </div>
-      </div> <!-- /.comment -->
-
-
-      <div class="row comment last">
-
-        <div class="col-sm-3 col-md-2 text-center-xs">
-          <p><img src="img/blog-avatar.jpg" class="img-responsive img-circle" alt=""></p>
-        </div>
-
-        <div class="col-sm-9 col-md-10">
-          <h5>Louise Armero</h5>
-          <p class="posted"><i class="fa fa-clock-o"></i> September 23, 2012 at 12:00 am</p>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-          <p class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></p>
-        </div>
-
-      </div> <!-- /.comment -->       
     </div><!-- /#comments -->
 
 
