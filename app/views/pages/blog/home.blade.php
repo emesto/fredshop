@@ -28,6 +28,27 @@
 
   <div class="col-sm-9"  id="blog-listing">
 
+    @if ($posts->count())
+      @foreach ($posts as $post)
+        <div class="post">
+          <h2><a href="/blog/post">Fashion now</a></h2>
+          <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a></p>
+          <hr>
+          <p class="date-comments">
+            <a href="/blog/post"><i class="fa fa-calendar-o"></i> June 20, 2013</a>
+            <a href="/blog/post"><i class="fa fa-comment-o"></i> 8 Comments</a>
+          </p>
+          <div class="image">
+            <a href="/blog/post"><img src="img/blog2.jpg" class="img-responsive" alt="Example blog post alt"></a>
+          </div>
+          <p class="intro">{{{ $post->content }}}</p>
+          <p class="read-more"><a href="/blog/post" class="btn btn-primary">Continue reading</a></p>
+        </div>
+      @endforeach
+    @else
+      There are no categories.
+    @endif
+
     <div class="post">
       <h2><a href="/blog/post">Fashion now</a></h2>
       <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a></p>

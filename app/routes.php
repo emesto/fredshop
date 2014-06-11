@@ -11,7 +11,13 @@ Route::get('basket', array('as' => 'basket', 'uses' => 'BasketController@index')
 Route::get('blog', array('as' => 'blog.home', function()
 {
   $categories = BlogCategory::all();
-  return View::make('pages.blog.home')->with('categories', $categories);;
+  $posts = BlogPost::all();
+
+  $data = array(
+    'categories' => $categories,
+    'posts'      => $posts
+  );
+  return View::make('pages.blog.home')->with($data);
 }));
 
 Route::get('blog/post', array('as' => 'blog.post', 'uses' => 'PostController@index'));
