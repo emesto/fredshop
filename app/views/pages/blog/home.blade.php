@@ -39,10 +39,10 @@
             <a href="/blog/post"><i class="fa fa-comment-o"></i> 8 Comments</a>
           </p>
           <div class="image">
-            <a href="/blog/post"><img src="img/blog2.jpg" class="img-responsive" alt="Example blog post alt"></a>
+            <a href="{{ '/blog/post/'.$post->id }}"><img src="{{ URL::asset('img/blog/posts/'.$post->id.'.jpg') }}" class="img-responsive" alt="{{ $post->title }}"></a>
           </div>
           <p class="intro">{{{ $post->content }}}</p>
-          <p class="read-more"><a href="/blog/post" class="btn btn-primary">Continue reading</a></p>
+          <p class="read-more">{{ link_to('/blog/post/'.$post->id, 'Continue reading', ['class' => 'btn btn-primary']) }}</p>
         </div>
       @endforeach
     @else
