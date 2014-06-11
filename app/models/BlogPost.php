@@ -14,4 +14,9 @@ class BlogPost extends Eloquent {
     return $this->belongsTo('BlogCategory');
   }
 
+  public function comments()
+  {
+        return $this->hasMany('BlogComments');
+  }
+
 }
