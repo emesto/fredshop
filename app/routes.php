@@ -6,6 +6,8 @@ Route::get('category', 'CategoryController@index');
 
 Route::get('detail', 'DetailController@index');
 
+Route::get('basket', array('as' => 'basket', 'uses' => 'BasketController@index'));
+
 Route::get('blog', array('as' => 'blog.home', function()
 {
   $categories = BlogCategory::all();
