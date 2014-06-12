@@ -16,7 +16,7 @@ class BlogPost extends Eloquent {
 
   public function comments()
   {
-        return $this->hasMany('BlogComment');
+    return $this->hasMany('BlogComment');
   }
 
 }

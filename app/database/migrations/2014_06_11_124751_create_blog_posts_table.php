@@ -19,8 +19,8 @@ class CreateBlogPostsTable extends Migration {
       $table->unsignedInteger('user_id');
       $table->foreign('user_id')->references('id')->on('users');
 
-      $table->unsignedInteger('category_id');
-      $table->foreign('category_id')->references('id')->on('blog_categories');
+      $table->unsignedInteger('blog_category_id');
+      $table->foreign('blog_category_id')->references('id')->on('blog_categories');
 
       $table->string('title');
       $table->longText('content');

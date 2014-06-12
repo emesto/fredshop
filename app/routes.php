@@ -20,7 +20,9 @@ Route::get('blog', array('as' => 'blog.home', function()
   return View::make('pages.blog.home')->with($data);
 }));
 
-Route::get('blog/post/{id}', array('as' => 'blog.post', 'uses' => 'PostController@index'));
+Route::get('blog/post/{id}', array('as' => 'blog.post', 'uses' => 'BlogPostController@index'));
+
+Route::get('blog/category/{id}', array('as' => 'blog.category', 'uses' => 'BlogCategoryController@index'));
 
 Route::get('contact', array('as' => 'contact', function()
 {

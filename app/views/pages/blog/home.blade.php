@@ -15,8 +15,10 @@
 
         <div class="row">
           <div class="col-sm-10 col-sm-offset-1">
-            <h1>Blog category name</h1>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+            <h1>The blog!</h1>
+            <p>
+              Here is a blog which will provide announcements about the site and occasionally provide special offers!
+            </p>
           </div>
         </div>
       </div>
@@ -70,7 +72,7 @@
       <ul class="nav nav-pills nav-stacked">
         @if ($categories->count())
           @foreach ($categories as $category)
-            <li>{{ link_to("category/{$category->id}", $category->name) }}</li>
+            <li>{{ link_to("blog/category/{$category->id}", $category->name) }}</li>
           @endforeach
         @else
           There are no categories.
