@@ -34,11 +34,11 @@
       @foreach ($posts as $post)
         <div class="post">
           <h2>{{ link_to('/blog/post/'.$post->id, $post->title) }}</h2>
-          <p class="author-category">By <a href="#">{{{ $post->user->username }}}</a> in <a href="">{{{ $post->category->name }}}</a></p>
+          <p class="author-category">By <a href="#">{{{ $post->user->username }}}</a> in <a href="">{{{ $categories->find($post->blog_category_id)->name }}}</a></p>
           <hr>
           <p class="date-comments">
-            <a href="/blog/post"><i class="fa fa-calendar-o"></i> June 20, 2013</a>
-            <a href="/blog/post"><i class="fa fa-comment-o"></i> 8 Comments</a>
+            <a href="/blog/post"><i class="fa fa-calendar-o"></i> {{{ date("d F Y",strtotime($post->created_at)) }}}</a><!--LOOK INTO REPLACING THE CODE IN THE VIEW BY USING A MODEL PRESENTER-->
+            <a href="/blog/post/{{ $post->id}}#comments"><i class="fa fa-comment-o"></i> {{ $post->comments->count() }} Comments</a>
           </p>
           <div class="image">
             <a href="{{ '/blog/post/'.$post->id }}"><img src="{{ URL::asset('img/blog/posts/'.$post->id.'.jpg') }}" class="img-responsive" alt="{{ $post->title }}"></a>
