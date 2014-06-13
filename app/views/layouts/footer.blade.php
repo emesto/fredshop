@@ -25,7 +25,13 @@
 
     <div class="col-md-3 col-sm-6">
 
-      <h4>Top categories</h4>
+      <h4>Top categories</h4> {{ dd($shop_category_list) }}
+
+      @foreach ($shop_category_list as $shop_category)
+
+      {{ $shop_category->name }} - 
+
+      @endforeach
 
       <h5>Men</h5>
 
