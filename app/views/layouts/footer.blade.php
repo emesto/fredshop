@@ -22,31 +22,28 @@
       <hr class="hidden-md hidden-lg hidden-sm">
 
     </div><!-- /.col-md-3 -->
-{{ dd($shop_category_list) }}
+
     <div class="col-md-3 col-sm-6">
 
       <h4>Top categories</h4>
-
+      <?php $new_root = 0; $not_first = 0; ?>
       @foreach ($shop_category_list as $shop_category)
 
-      {{ $shop_category->name }} - 
+        @if($shop_category['depth'] == 0)
+          @if($not_first == 1)
+          </ul>
+          @endif
+          <h5>{{ $shop_category['name'] }}</h5>
+          <?php $new_root = 1; $not_first = 1; ?>
+        @else
+          @if($new_root == 1)
+          <ul>
+          <?php $new_root = 0; ?>
+          @endif
+          <li>{{ $shop_category['name'] }}</li>
+        @endif
 
       @endforeach
-
-      <h5>Men</h5>
-
-      <ul>
-        <li><a href="category.html">T-shirts</a></li>
-        <li><a href="category.html">Shirts</a></li>
-        <li><a href="category.html">Accessories</a></li>
-      </ul>
-
-      <h5>Ladies</h5>
-      <ul>
-        <li><a href="category.html">T-shirts</a></li>
-        <li><a href="category.html">Skirts</a></li>
-        <li><a href="category.html">Pants</a></li>
-        <li><a href="category.html">Accessories</a></li>
       </ul>
 
       <hr class="hidden-md hidden-lg">
