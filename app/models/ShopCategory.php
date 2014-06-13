@@ -10,12 +10,9 @@ class ShopCategory extends Eloquent {
       if($shop_category->parent_id == $parent_id){
         array_push($category_list, $shop_category->name);
         $temp_list = ShopCategory::build_category_list($shop_category->id);
-        if($temp_list != array()){
-          array_push($category_list, $temp_list);
-        }
-        
+        ($temp_list != array()) ? array_push($category_list, $temp_list) : 0;
       }
     }
-    return $category_list; // Otherwise return the list
+    return $category_list;
   }
 }
