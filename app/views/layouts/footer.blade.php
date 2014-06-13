@@ -22,10 +22,10 @@
       <hr class="hidden-md hidden-lg hidden-sm">
 
     </div><!-- /.col-md-3 -->
-
+{{ dd($shop_category_list) }}
     <div class="col-md-3 col-sm-6">
 
-      <h4>Top categories</h4> {{ dd($shop_category_list) }}
+      <h4>Top categories</h4>
 
       @foreach ($shop_category_list as $shop_category)
 
