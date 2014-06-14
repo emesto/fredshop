@@ -13,7 +13,7 @@
 
 App::before(function($request)
 {
-	//
+	View::share('shop_category_list', ShopCategory::build_category_list(0));
 });
 
 
