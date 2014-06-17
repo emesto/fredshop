@@ -1,5 +1,7 @@
 <?php
-
+Event::listen('illuminate.query', function($sql){
+    var_dump($sql);
+});
 Route::get('/', array('as' => 'home', 'uses' => 'HomeController@index'));
 
 Route::get('category', 'CategoryController@index');
@@ -11,7 +13,7 @@ Route::get('basket', array('as' => 'basket', 'uses' => 'BasketController@index')
 Route::get('blog', array('as' => 'blog.home', function()
 {
   $categories = BlogCategory::all();
-  $posts = BlogPost::all();
+  $posts = BlogPost::with('user', 'comments')->get();
 
   $data = array(
     'categories' => $categories,
